@@ -1,0 +1,88 @@
+html,body
+{
+    width: 100%;
+    margin: 0;
+    color: black;
+    font-size: 1.2vw;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+.inline
+{
+    display: inline-block;
+}
+
+.container
+{
+    text-align: center;
+    background: #343A40;
+    color: white;
+    padding: 1.2vw;
+}
+
+.kok input
+{
+    display: inline-block;
+}
+
+.btn
+{
+    background: #343A40;
+    color: white;
+    border: 0.1vw solid white;
+    padding: 0.6vw;
+    border-radius: 0.2vw;
+    text-shadow: 0.1vw 0.1vw 0.3vw white;
+    width: 13.3vw;
+    margin: 0.5vw 0;
+}
+
+.in
+{
+    background: #343A40;
+    color: white;
+    padding: 0.6vw;
+    width: 12vw;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+::placeholder
+{
+    color: #bcc4cc;
+}
+
+.btn:hover
+{
+    background: white;
+    transition-duration: 0.5s;
+    color: #343A40;
+    text-shadow: 0.1vw 0.1vw 0.3vw #343A40;
+}
+
+.stats
+{
+    text-align: center;
+}
+
+.stats h4
+{
+    display: inline-block;
+    text-align: center;
+}
+
+#y1Stat
+{
+    color: #1F77B4;
+}
+
+#y2Stat
+{
+    color: #FF7F0E;
+}
+
+#y3Stat
+{
+    color: #2CA02C;
+}

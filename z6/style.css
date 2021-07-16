@@ -1,0 +1,176 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #111;
+    background-repeat: no-repeat;
+}
+
+.container
+{
+    background: url(https://source.unsplash.com/TV2gg2kZD1o/1600x800);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 41vw;
+    text-align: center;
+    display: flex;
+    color: white;
+    box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+    padding: 0;
+}
+
+.textArea
+{
+    position: relative;
+    width: 55%;
+    background: rgba(20, 20, 20, .8);
+    padding: 1vw 0;
+    border-right: 0.5vw solid rgba(30, 30, 30, .8);
+}
+
+.show
+{
+    width: 70%;
+    padding: 3vw 3vw;
+    background: rgba(20, 40, 40, .8);
+    transition: .2s;
+    overflow-y: auto;
+    font-size: 1.2vw;
+    text-align: left;
+}
+
+form
+{
+    margin: 0;
+}
+
+.borders
+{
+    border-top: 0.3vw solid rgba(30, 30, 30, .8);
+}
+
+select
+{
+    font-size: 0.7vw;
+    width: 13vw;
+    border: 0.1vw solid rgba(10, 180, 180, 1);
+    color: white;
+    outline: none;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    background: rgba(20, 20, 20, .3);
+}
+
+h5
+{
+    margin: 0;
+    margin-top: 0.8vw;
+    font-size: 1vw;
+}
+
+#xxx
+{
+    margin-bottom: 1vw;
+}
+
+.inputFields
+{
+    margin-top: 0.2vw;
+    font-size: 0.7vw;
+    padding: 0.4vw;
+    width: 13vw;
+    border: 0.1vw solid rgba(10, 180, 180, 1);
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    background: rgba(20, 20, 20, .2);
+    color: white;
+    outline: none;
+
+}
+
+.buttons
+{
+    border: 0.1vw solid rgba(10, 180, 180, 1);
+    background: rgba(20, 20, 20, .6);
+    font-size: 0.7vw;
+    color: white;
+    margin: 0.8vw 0;
+    padding: 0.4vw 5.6vw;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.buttons:hover
+{
+    padding: 0.4vw 6.5vw;
+}
+
+footer
+{
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.right
+{
+    float: right;
+    margin-right: 10px;
+    color: white;
+}
+
+.left
+{
+    float: left;
+    margin-left: 10px;
+}
+
+#leftButton
+{
+    color: white;
+    text-decoration: none;
+}
+
+.w3-modal
+{
+    padding-top: 3vw;
+}
+
+.w3-modal-content
+{
+    width: 50vw;
+}
+
+#modalHeader
+{
+    text-align: center;
+    border-bottom: 0.1vw solid black;
+    font-weight: bold;
+}
+
+.task
+{
+    border-bottom: 0.1vw solid black;
+    margin-bottom: 0.5vw;
+}
+
+.taskHeader
+{
+    color: rgba(10, 180, 180, 1);
+    font-weight: bold;
+}
+
+.taskLink
+{
+    font-weight: bold;
+}

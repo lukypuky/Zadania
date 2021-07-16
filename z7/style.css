@@ -1,0 +1,120 @@
+html,body
+{
+    width: 100%;
+    margin: 0;
+    color: black;
+    font-size: 1vw;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+nav
+{
+    background: #343A40;
+    text-align: center;
+    color: white;
+    padding: 1.5vw;
+}
+
+.menu
+{
+    background: #343A40;
+    color: white;
+    border: 0.1vw solid white;
+    padding: 0.5vw;
+    text-decoration: none;
+    border-radius: 0.2vw;
+    text-shadow: 0.1vw 0.1vw 0.3vw white;
+}
+
+.active
+{
+    background: white;
+    color: #343A40;
+    border: 0.2vw solid #1F77B4;
+    padding: 0.5vw;
+    text-decoration: none;
+    border-radius: 0.2vw;
+    text-shadow: 0.1vw 0.1vw 0.3vw #343A40;
+}
+
+.menu:hover, .active:hover
+{
+    text-decoration: none;
+    background: white;
+    transition-duration: 0.5s;
+    color: #343A40;
+    text-shadow: 0.1vw 0.1vw 0.3vw #343A40;
+}
+
+h1
+{
+    margin: 0;
+    margin-top: 2vw;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.container
+{
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 5%;
+    max-height: 50vw;
+}
+
+.buttons a
+{
+    text-align: center;
+}
+
+.heading
+{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+table, tr, td, th
+{
+    font-size: 1vw;
+}
+
+#prehlad
+{
+    margin-top: 4vw;
+}
+
+a
+{
+    color: orange;
+}
+
+footer
+{
+    position:fixed;
+    left: 0vw;
+    bottom: 0vw;
+    height: 2vw;
+    width: 100%;
+    font-weight: bold;
+}
+
+.right
+{
+    float: right;
+    margin-right: 1vw;
+    color: black;
+}
+
+#nepotvrdene p
+{
+    margin-top: 1%;
+    font-size: 2vw;
+    text-align: center;
+    color: orange;
+}
+
+p
+{
+    display: inline-block;
+    color: orange;
+}

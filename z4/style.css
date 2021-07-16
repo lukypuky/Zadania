@@ -1,0 +1,105 @@
+html,body
+{
+    width: 100%;
+    margin: 0;
+    color: black;
+    font-size: 1.2vw;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+td, tr
+{
+    font-size: 0.7vw;
+}
+
+.stats
+{
+    text-align: center;
+    margin: 0;
+}
+
+.confirm
+{
+    color: #1F77B4;
+    font-weight: bold;
+}
+
+.xxx
+{
+    font-weight: bold;
+}
+
+.dead
+{
+    color: #FF7F0E;
+    font-weight: bold;
+}
+
+.recover
+{
+    color: #2CA02C;
+    font-weight: bold;
+}
+
+nav
+{
+    background: #343A40;
+    text-align: center;
+    color: white;
+    padding: 1.5vw;
+}
+
+.menu, .buttons
+{
+    background: #343A40;
+    color: white;
+    border: 0.1vw solid white;
+    padding: 0.5vw;
+    text-decoration: none;
+    border-radius: 0.2vw;
+    text-shadow: 0.1vw 0.1vw 0.3vw white;
+}
+
+.active
+{
+    background: white;
+    color: #343A40;
+    border: 0.2vw solid #1F77B4;
+    padding: 0.5vw;
+    text-decoration: none;
+    border-radius: 0.2vw;
+    text-shadow: 0.1vw 0.1vw 0.3vw #343A40;
+}
+
+.menu:hover,.buttons:hover, .active:hover
+{
+    text-decoration: none;
+    background: white;
+    transition-duration: 0.5s;
+    color: #343A40;
+    text-shadow: 0.1vw 0.1vw 0.3vw #343A40;
+}
+
+.buttons_box
+{
+    display: flex;
+    width: 70%;
+    margin: 1% 0 0 41.5%;
+}
+
+.buttons_box form
+{
+    margin: 0.4%;
+}
+
+#choose
+{
+    margin-top: 1%;
+}
+
+.heading
+{
+    font-size: 2vw;
+    text-align: center;
+}
+
